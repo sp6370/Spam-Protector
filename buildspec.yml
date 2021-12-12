@@ -13,6 +13,7 @@ phases:
       - zip -r9 ../deployment_package1.zip .
       - cd ..
       - zip -g deployment_package1.zip LF1.py
+      - zip -g deployment_package1.zip sms_spam_classifier_utilities.py
   post_build:
     commands:
       - echo "Updating lambda Function 1..."
