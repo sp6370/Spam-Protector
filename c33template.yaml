@@ -5,10 +5,10 @@ Resources:
     Type: AWS::S3::Bucket
     Properties:
       AccessControl: PublicRead
+      BucketName: "emails3send"
   BucketPolicy:
     Type: AWS::S3::BucketPolicy
     Properties:
-      BucketName: "emails3send"
       PolicyDocument:
         Id: emails3sendPolicy
         Version: '2012-10-17'
