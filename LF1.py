@@ -17,7 +17,7 @@ def lambda_handler(event, context):
     print(femail)
     print(body)
 
-    sgEndpoint = 'ml-instance-jgsp'
+    sgEndpoint = 'sms-spam-classifier-mxnet-2021-12-12-19-37-03-876'
     sruntime = boto3.client('runtime.sagemaker')
 
     #model input formatiing
