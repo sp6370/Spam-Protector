@@ -11,4 +11,4 @@ This is a machine learning model to predict whether a message is spam or not. Af
     
 - Architecture Diagram
 
-![Overview](overview.png)
+![Overview](A3_Architecture.png)
