@@ -1,6 +1,3 @@
-# Cloud Computing Assignment 3
-
-
 # Email Spam Detection
 
 # Summary
